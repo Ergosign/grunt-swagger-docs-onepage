@@ -1,7 +1,7 @@
 {
   "name": "grunt-swagger-docs-onepage",
   "description": "Removes Javascript from swagger-ui docs to export a single html document that is easier to distribute",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/Ergosign/grunt-swagger-docs-onepage",
   "author": {
     "name": "Al Briggs",
