@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         var done = this.async();
 
         grunt.log.writeln('waiting for servers to start');
-        sleep.sleep(5);//wait for any servers to be up and running
+        sleep.sleep(10);//wait for any servers to be up and running
 
         var options = this.options();
 
