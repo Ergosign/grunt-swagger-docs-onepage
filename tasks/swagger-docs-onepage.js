@@ -89,7 +89,7 @@ module.exports = function (grunt) {
                 phantomjs.spawn(pageUrl, {
                     // Additional PhantomJS options.
                     options: {
-                        timeout: 50000,
+                        timeout: 30000,
                         inject: asset('phantomjs/bridge.js')
                     },
                     // Complete the task when done.
