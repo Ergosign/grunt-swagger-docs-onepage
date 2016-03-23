@@ -16,12 +16,12 @@ module.exports = function (grunt) {
     grunt.task.registerTask('swagger-docs-onepage', 'Inline all CSS and removes Javascript from swagger-ui docs to export a single html document that is easier to distribute.', function (arg1, arg2) {
 
         var done = this.async();
+        var options = this.options();
 
         grunt.log.writeln('waiting for servers to start');
         //wait for any servers to be up and running
-        sleep.sleep(15000, function() {
+        sleep.sleep(5000, function() {
             grunt.log.writeln('the wait is over...');
-            var options = this.options();
 
             var htmlFiles = grunt.file.expand([options.src]);
 
